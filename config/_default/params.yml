@@ -23,12 +23,12 @@ monthFormat: "2006-01"
 dateFormat: "2006-01-02"
 timeFormat: "2006-01-02 15:04:05"
 
-author: "Hsujinho"
+author: "Se1kou"
 email: "hsujinho@gmail.com"
-description: "描述"
-subtitle: "副標"
+description: "一個誠實、喜愛思考的廢廢大六生。興趣是 ACGN、音樂，屬實宅宅。妥妥的 INFP。"
+subtitle: 病人 Se1kou 的專屬空間，放置個人的自言自語，包括生活的紀錄、問題的思考、遊戲的心得...ご自由に
 
-banner: "images/banner.webp"
+banner: "images/pinoconi_topic.webp"
 # You can also write it in the form of the following url
 # banner: "https://example.com"
 
@@ -43,7 +43,7 @@ banner_srcset:
     - src: "images/banner.webp"
       media: "(min-width: 800px)"
 
-avatar: "avatar.webp"
+avatar: "stelle_01.webp"
 
 # Control the display of the post cover
 # If not set, the banner image will be displayed by default
@@ -91,7 +91,7 @@ copyright:
 #   All website licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a></div>
 
 footer:
-  since: 2020 # 2020-current year
+  since: 2025 # 2020-current year
   powered: true
   count: true
   busuanzi: true
@@ -168,7 +168,7 @@ layout:
 anchor_icon: # default use '#' icon, you can use a hexadecimal representation of fontawesome or icon_font, like 'f0c1', you can also use false to hide anchor icon
 
 reimu_cursor:
-  enable: true
+  enable: false
   cursor:
     default: ../images/cursor/reimu-cursor-default.png  # this path is relative to the css/main.css, so it needs to go up one level to reach the images folder
     pointer: ../images/cursor/reimu-cursor-pointer.png
@@ -598,7 +598,7 @@ player:
   # if you enable meting, you must enable aplayer first
   aplayer:
     # https://github.com/DIYgod/APlayer
-    enable: false
+    enable: ture
     options:
       audio: []
       fixed: true
@@ -627,7 +627,7 @@ player:
 
 pangu:
   # more information: https://github.com/vinta/pangu.js 
-  enable: false  # enable pangu.js to add space between Chinese and English
+  enable: ture  # enable pangu.js to add space between Chinese and English
 
 ########################################
 # Theme
