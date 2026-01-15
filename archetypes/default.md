@@ -22,8 +22,8 @@ draft: true
 sidebar: left
 
 # Taxonomies
-categories:
-  - Uncategorized
+categories: # 生活記事、主題討論、作品評論、未分類
+  - 未分類
 tags:
   - 
 ---
